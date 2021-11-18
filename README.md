@@ -42,8 +42,7 @@ executed in order to collect humidity and tempratrue data.
 ```bash
   # mosquitto_pub -h broker.emqx.io -m '{"temperature": 40, "humidity" : 20}' -t
 devices/device_001/messages
-
-    ```
+```
 5. TADAAAAAAA
 
 ![output](images/output.png)
